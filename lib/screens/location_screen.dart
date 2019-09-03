@@ -42,6 +42,13 @@ class _LocationScreenState extends State<LocationScreen> {
                       size: 50.0,
                     ),
                   ),
+                  TextField(
+                    style: TextStyle(color: Colors.black),
+                    decoration: kInputDecoration,
+                    onChanged: (value) {
+                      print(value);
+                    },
+                  ),
                 ],
               ),
               Padding(
